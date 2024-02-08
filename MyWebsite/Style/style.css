@@ -1,0 +1,77 @@
+.body{
+    margin: 0px;
+}
+.container {
+    /* width: 1200px; */
+    height: auto;
+    position: relative;
+}
+
+/*start of the style for index.php*/
+.top1 {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+/* .top1_child1 ,.top1_child2 { 
+    width: 50%;
+    background-color: black;
+   
+
+} */
+.top1_child1 {
+    width: 50%;
+    background-color: black;
+}
+
+.top1_child2{
+    width: 50%;
+    background-color: pink;
+}
+
+.top1_child1 h1
+ {
+    color: white;
+    text-align: center;
+    
+    /* Additional styles for both h1 and p go here */
+}
+.top1_child1 p{
+    text-align: center;
+    color: white; 
+}
+
+
+
+.top1_child2 img {
+    width: 20rem; 
+    height: 20rem; 
+    margin: 100px;
+    margin-top: 40px;
+    border-radius: 400px;
+
+    
+}
+/*end of the style for index.php*/
+
+/* The start of Top2 */
+.top2{
+    
+    justify-content: space-between;
+    position: relative;
+    height: 200px;
+}
+.top2_child1{
+    align-items: center;
+    background-color: rgb(16, 16, 122);
+    position: relative;
+    display: flex;
+}
+.top1_child2 img {
+
+} 
+.top2_child1 h2 {
+    font-size: 5rem;
+}
+
